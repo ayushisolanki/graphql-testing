@@ -1,4 +1,4 @@
-const { ApolloServer, gql } = require('apollo-server');
+import { ApolloServer, gql } from 'apollo-server';
 
 const typeDefs = gql`
  
@@ -39,8 +39,6 @@ server.listen().then(({ url }) => {
   console.log(`Server ready at ${url}`);
 });
 
-function sum(a,b){
+export function sum(a,b){
   return a+b;
 }
-
-module.exports = sum;
