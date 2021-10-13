@@ -13,7 +13,8 @@
   "dependencies": {
     "apollo-server": "^3.3.0",
     "graphql": "^15.6.0",
-    "graphql-request": "^3.5.0"
+    "graphql-request": "^3.5.0",
+    "graphql-tools": "^8.2.0"
   },
   "devDependencies": {
     "chai": "^4.3.4",
